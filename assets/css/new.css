@@ -1,0 +1,397 @@
+/*! CSS Used from: https://developer-portfolio-1hanzla100.vercel.app/static/css/main.357d61f8.chunk.css */
+.ni {
+  display: inline-block;
+  font: normal normal normal 14px/1 NucleoIcons;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ni-laptop:before {
+  content: "\ea3c";
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-arrow-right:before {
+  content: "\f061";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+/* h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: #5e72e4;
+  background-color: transparent;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: #233dd2;
+}
+button {
+  border-radius: 0;
+}
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  overflow: visible;
+}
+button {
+  text-transform: none;
+}
+button {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+h3,
+h4 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #32325d;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem; 
+}*/
+.display-3 {
+  font-size: 2.1875rem;
+}
+.display-3 {
+  font-weight: 600;
+  line-height: 1.5;
+}
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  color: #525f7f;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.625rem 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}
+.btn:hover {
+  color: #525f7f;
+  text-decoration: none;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+.btn:disabled {
+  opacity: 0.65;
+  box-shadow: none;
+}
+.btn-success {
+  color: #fff;
+  background-color: #2dce89;
+  border-color: #2dce89;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #26af74;
+  border-color: #24a46d;
+}
+.btn-success:focus {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08),
+    0 0 0 0 rgba(77, 213, 155, 0.5);
+}
+.btn-success:disabled {
+  color: #fff;
+  background-color: #2dce89;
+  border-color: #2dce89;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+  border-radius: 0.25rem;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.shadow {
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+.mt-3 {
+  margin-top: 1rem !important;
+}
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+.px-3 {
+  padding-right: 1rem !important;
+}
+.px-3 {
+  padding-left: 1rem !important;
+}
+.p-4 {
+  padding: 1.5rem !important;
+}
+.pl-4 {
+  padding-left: 1.5rem !important;
+}
+.text-info {
+  color: #11cdef !important;
+}
+@media print {
+  *,
+  :after,
+  :before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  h3,
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
+  .container {
+    min-width: 992px !important;
+  }
+}
+.bg-gradient-white {
+  background: linear-gradient(35deg, #fff, #fff) !important;
+}
+
+@media (min-width: 992px) {
+  .row.row-grid > [class*="col-lg-"] + [class*="col-lg-"] {
+    margin-top: 0;
+  }
+}
+[class*="shadow"] {
+  transition: all 0.15s ease;
+}
+.shadow-lg--hover:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.btn {
+  position: relative;
+  text-transform: uppercase;
+  will-change: transform;
+  letter-spacing: 0.025em;
+  font-size: 0.875rem;
+}
+.btn:hover {
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+.btn:not(:last-child) {
+  margin-right: 0.5rem;
+}
+.btn-github {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.btn-github,
+.btn-github:hover {
+  color: #fff;
+  background-color: #222;
+  border-color: #222;
+}
+.btn-github:focus {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08),
+    0 0 0 0 rgba(34, 34, 34, 0.5);
+}
+.btn-github:disabled {
+  color: #fff;
+  background-color: #222;
+  border-color: #222;
+}
+.card {
+  position: relative;
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+.icon i {
+  font-size: 2.25rem;
+}
+.icon-lg {
+  width: 4rem;
+  height: 4rem;
+}
+.icon-lg i {
+  font-size: 3.25rem;
+}
+.icon-shape {
+  padding: 12px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.icon-shape i {
+  font-size: 1.25rem;
+}
+.icon-shape.icon-lg i {
+  font-size: 1.625rem;
+}
+p {
+  font-size: 1rem;
+}
+p {
+  font-weight: 300;
+  line-height: 1.7;
+}
+.description {
+  font-size: 0.875rem;
+}
+:focus {
+  outline: none;
+}
+/*! CSS Used from: Embedded */
+.react-reveal {
+  opacity: 0;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "NucleoIcons";
+  src: url(https://developer-portfolio-1hanzla100.vercel.app/static/media/nucleo-icons.19abb540.eot);
+  src: url(https://developer-portfolio-1hanzla100.vercel.app/static/media/nucleo-icons.19abb540.eot)
+      format("embedded-opentype"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/nucleo-icons.cba26748.woff2)
+      format("woff2"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/nucleo-icons.c82c9b7c.woff)
+      format("woff"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/nucleo-icons.d6a66724.ttf)
+      format("truetype"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/nucleo-icons.01ebecaf.svg)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url(https://developer-portfolio-1hanzla100.vercel.app/static/media/fontawesome-webfont.8b43027f.eot);
+  src: url(https://developer-portfolio-1hanzla100.vercel.app/static/media/fontawesome-webfont.8b43027f.eot#iefix&v=4.7.0)
+      format("embedded-opentype"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/fontawesome-webfont.20fd1704.woff2)
+      format("woff2"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/fontawesome-webfont.f691f37e.woff)
+      format("woff"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/fontawesome-webfont.1e59d233.ttf)
+      format("truetype"),
+    url(https://developer-portfolio-1hanzla100.vercel.app/static/media/fontawesome-webfont.c1e38fd9.svg#fontawesomeregular)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
